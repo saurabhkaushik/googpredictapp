@@ -5,7 +5,7 @@
 
 <%@ page import="com.gpa.common.*" %>
 
-<html>
+<html> 
 <head> 
     <link type="text/css" rel="stylesheet" href="css/main.css"/>
     <title>  Google Prediction App  </title>
