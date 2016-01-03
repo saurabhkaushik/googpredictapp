@@ -1,6 +1,6 @@
 package com.gpa.common;
 
-public class Constants {
+public class Constants { 
 	public static String APPLICATION_NAME = "googpredictapp";
 	public static String PROJECT_NAME = "googpredictapp";
 	
