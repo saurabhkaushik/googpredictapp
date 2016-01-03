@@ -3,7 +3,7 @@
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <%@ taglib prefix="c"  uri="http://java.sun.com/jsp/jstl/core"  %>
 
-<%@ page import="com.supersk.common.*" %>
+<%@ page import="com.gpa.common.*" %>
 
 <html>
 <head> 
