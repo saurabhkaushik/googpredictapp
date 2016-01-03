@@ -1,4 +1,4 @@
-package com.supersk.engine;
+package com.gpa.engine;
 
 import com.google.api.client.googleapis.auth.oauth2.GoogleCredential;
 import com.google.api.client.googleapis.javanet.GoogleNetHttpTransport;
@@ -18,7 +18,7 @@ import com.google.api.services.prediction.model.Output;
 import com.google.api.services.storage.Storage;
 import com.google.api.services.storage.StorageScopes;
 
-import com.supersk.common.*;
+import com.gpa.common.*;
 
 import com.google.api.client.http.HttpResponse;
 import org.json.simple.JSONObject;

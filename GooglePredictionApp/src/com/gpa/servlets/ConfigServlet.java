@@ -1,4 +1,4 @@
-package com.supersk.servlets;
+package com.gpa.servlets;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -8,11 +8,10 @@ import java.security.GeneralSecurityException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.util.Map;
 
-import org.datanucleus.sco.backed.Map;
-
-import com.supersk.common.Constants;
-import com.supersk.engine.PredictionEngine;
+import com.gpa.common.Constants;
+import com.gpa.engine.PredictionEngine;
 
 public class ConfigServlet extends HttpServlet {
 
@@ -22,7 +21,7 @@ public class ConfigServlet extends HttpServlet {
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) 
 			throws IOException, ServletException {
 		
-		java.util.Map mapl = req.getParameterMap(); 
+		Map mapl = req.getParameterMap(); 
 		String[] values;
 		if (mapl.containsKey("PROJECT_NAME")) {
 			values = (String[]) mapl.get("PROJECT_NAME");
